@@ -9,11 +9,23 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Routes>
-          <Route path="/" element={<ChatList />} />
-          <Route path="/profile/:id" element={<ChatProfile />} />
-          <Route path="/conversation/:id" element={<ChatConversation />} />
-        </Routes>
+        <header className="App-header">
+          <img src="/path/to/logo.png" alt="Logo" className="App-logo" />
+        </header>
+        <div className="App-content">
+          <aside className="App-sidebar">
+            <ChatList />
+          </aside>
+          <main className="App-main">
+            <Routes>
+              <Route path="/profile/:id" element={<ChatProfile />} />
+              <Route path="/conversation/:id" element={<ChatConversation />} />
+            </Routes>
+          </main>
+        </div>
+        <footer className="App-footer">
+          <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+        </footer>
       </div>
     </Router>
   );

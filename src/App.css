@@ -1,26 +1,113 @@
+/* Base Styles */
 .App {
-    text-align: left;
-  }
-  
-  h1 {
-    color: #333;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    margin: 10px 0;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #007bff;
-  }
-  
-  a:hover {
-    text-decoration-skip-ink: auto;;
-  }
-  
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #dc59e0b6;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #2358eb;
+}
+
+a:hover {
+  text-decoration-skip-ink: auto;
+}
+
+.App-header {
+  display: flex;
+  justify-content: center; /* Center logo */
+  align-items: center; /* Vertically center content */
+  padding: 20px;
+  background-color: #437386; /* Default light theme header color */
+  position: relative;
+}
+
+.App-logo {
+  height: 80px;
+  width: auto;
+  border-radius: 15px; /* Adjust the logo's shape */
+}
+
+.App-content {
+  display: flex;
+  flex: 1;
+}
+
+.App-sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color: #f0f0f0; /* Default light theme sidebar color */
+}
+
+.App-main {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff; /* Default light theme main content background */
+  background-image: url(https://i.pinimg.com/originals/72/42/92/7242926d770d27633d218b50fa69db73.gif)
+}
+
+.App-footer {
+  background-color: #437386; /* Default light theme footer color */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 16px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+}
+
+/* Dark Theme */
+.App.dark {
+  background-color: #1c1c1c;
+  color: #111010;
+
+}
+
+.App-header.dark {
+  background-color: #3e3e3e;
+}
+
+.App-sidebar.dark {
+  background-color: #333;
+}
+
+.App-main.dark {
+  background-color: #2b2b2b;
+}
+
+.App-footer.dark {
+  background-color: #0f0e0e;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  background-color: #1d456d;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  right: 20px; /* Position the button on the right side */
+}
+
+.theme-toggle:hover {
+  background-color: #90acc9;
+}

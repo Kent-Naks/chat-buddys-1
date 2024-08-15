@@ -29,9 +29,12 @@ a:hover {
 }
 
 .App-header {
-  text-align: center;
+  display: flex;
+  justify-content: center; /* Center logo */
+  align-items: center; /* Vertically center content */
   padding: 20px;
   background-color: #e2a592; /* Default light theme header color */
+  position: relative;
 }
 
 .App-logo {
@@ -99,7 +102,8 @@ a:hover {
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
-  margin-left: 20px;
+  position: absolute;
+  right: 20px; /* Position the button on the right side */
 }
 
 .theme-toggle:hover {

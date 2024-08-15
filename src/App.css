@@ -7,7 +7,7 @@
 }
 
 h1 {
-  color: #333;
+  color: #dc59e0b6;
 }
 
 ul {
@@ -21,7 +21,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #007bff;
+  color: #2358eb;
 }
 
 a:hover {
@@ -33,7 +33,7 @@ a:hover {
   justify-content: center; /* Center logo */
   align-items: center; /* Vertically center content */
   padding: 20px;
-  background-color: #e2a592; /* Default light theme header color */
+  background-color: #437386; /* Default light theme header color */
   position: relative;
 }
 
@@ -57,11 +57,12 @@ a:hover {
 .App-main {
   flex: 1;
   padding: 20px;
-  background-color: #fff; /* Default light theme main content background */
+  background-color: #ffffff; /* Default light theme main content background */
+  background-image: url(https://i.pinimg.com/originals/72/42/92/7242926d770d27633d218b50fa69db73.gif)
 }
 
 .App-footer {
-  background-color: #a07868; /* Default light theme footer color */
+  background-color: #437386; /* Default light theme footer color */
   color: white;
   text-align: center;
   padding: 15px;
@@ -75,7 +76,8 @@ a:hover {
 /* Dark Theme */
 .App.dark {
   background-color: #1c1c1c;
-  color: #f0f0f0;
+  color: #111010;
+
 }
 
 .App-header.dark {
@@ -91,12 +93,12 @@ a:hover {
 }
 
 .App-footer.dark {
-  background-color: #444;
+  background-color: #0f0e0e;
 }
 
 /* Theme Toggle Button */
 .theme-toggle {
-  background-color: #007bff;
+  background-color: #1d456d;
   color: white;
   border: none;
   padding: 10px;
@@ -107,5 +109,5 @@ a:hover {
 }
 
 .theme-toggle:hover {
-  background-color: #0056b3;
+  background-color: #90acc9;
 }

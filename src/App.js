@@ -16,7 +16,7 @@ function App() {
     <Router>
       <div className={`App ${theme}`}>
         <header className="App-header">
-          <img src="/path/to/logo.png" alt="Logo" className="App-logo" />
+          <img src="/path/to/logo.png" alt="Chat Buddys" className="App-logo" />
           <button onClick={toggleTheme} className="theme-toggle">
             {theme === 'light' ? 'Dark Mode' : 'Light Mode'}
           </button>
@@ -33,7 +33,7 @@ function App() {
           </main>
         </div>
         <footer className="App-footer">
-          <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+          <p>&copy; 2024 Chat Buddys. All rights reserved.</p>
         </footer>
       </div>
     </Router>

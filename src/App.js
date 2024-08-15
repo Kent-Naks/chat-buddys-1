@@ -10,7 +10,7 @@ function App() {
     <Router>
       <div className="App">
         <header className="App-header">
-          <img src="/path/to/logo.png" alt="Logo" className="App-logo" />
+          <img src="/path/to/logo.png" alt="Chat Buddys" className="App-logo" />
         </header>
         <div className="App-content">
           <aside className="App-sidebar">
@@ -24,7 +24,7 @@ function App() {
           </main>
         </div>
         <footer className="App-footer">
-          <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+          <p>&copy; 2024 Chat Buddys. All rights reserved.</p>
         </footer>
       </div>
     </Router>

@@ -16,13 +16,14 @@ function App() {
     <Router>
       <div className={`App ${theme}`}>
         <header className="App-header">
-          <img src="/path/to/logo.png" alt="Chat Buddys" className="App-logo" />
+          <img src="https://i.pinimg.com/564x/14/72/52/147252b2331f826b7cf2a7b7d32368ce.jpg" alt="Chat Buddys" className="App-logo" />
           <button onClick={toggleTheme} className="theme-toggle">
             {theme === 'light' ? 'Dark Mode' : 'Light Mode'}
           </button>
         </header>
         <div className="App-content">
-          <aside className="App-sidebar">
+          <aside className="App-sidebar"> 
+
             <ChatList />
           </aside>
           <main className="App-main">

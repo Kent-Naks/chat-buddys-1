@@ -7,7 +7,7 @@
 }
 
 h1 {
-  color: #dc59e0b6;
+  color: #156cafb6;
 }
 
 ul {
@@ -40,7 +40,8 @@ a:hover {
 .App-logo {
   height: 80px;
   width: auto;
-  border-radius: 15px; /* Adjust the logo's shape */
+  border-radius: 15px; /* logo's shape */
+  
 }
 
 .App-content {
@@ -51,18 +52,18 @@ a:hover {
 .App-sidebar {
   width: 250px;
   padding: 20px;
-  background-color: #f0f0f0; /* Default light theme sidebar color */
+  background-color: #f0f0f0; /* sidebar color */
 }
 
 .App-main {
   flex: 1;
   padding: 20px;
-  background-color: #ffffff; /* Default light theme main content background */
-  background-image: url(https://i.pinimg.com/originals/72/42/92/7242926d770d27633d218b50fa69db73.gif)
+  background-color: #ffffff; /* main content background */
+  /*background-image: url(https://i.pinimg.com/originals/72/42/92/7242926d770d27633d218b50fa69db73.gif)*/
 }
 
 .App-footer {
-  background-color: #437386; /* Default light theme footer color */
+  background-color: #437386; /*footer background color */
   color: white;
   text-align: center;
   padding: 15px;
@@ -84,6 +85,12 @@ a:hover {
   background-color: #3e3e3e;
 }
 
+.App-chatlist.dark {
+  background-color: #3e3e3e;
+}
+
+
+
 .App-sidebar.dark {
   background-color: #333;
 }
@@ -94,6 +101,7 @@ a:hover {
 
 .App-footer.dark {
   background-color: #0f0e0e;
+  color: #0f0e0e;
 }
 
 /* Theme Toggle Button */

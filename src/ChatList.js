@@ -41,7 +41,7 @@ function ChatList() {
 
   return (
     <div>
-      <h1>Chat Buddies</h1>
+      <h1>Chat Buddys</h1>
       <ul>
         {buddies.map(buddy => (
           <li key={buddy.id}>

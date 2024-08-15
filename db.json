@@ -57,7 +57,122 @@
         "history": "Any favorite eras in history?",
         "food": "What's your go-to comfort food?"
       }
+    },
+    {
+      "id": 3,
+      "name": "The Mamas",
+      "profilePic": "https://i.pinimg.com/736x/2c/51/68/2c5168fc7cea158a94132b79a696c4ca.jpg",
+      "questions": [
+        "What political issue do you think needs more attention?",
+        "How do you cope with intense emotions?",
+        "Is there a scientific breakthrough you're particularly interested in?",
+        "What's a piece of technology you can't live without?",
+        "Do you think people control their own destinies, or is everything predetermined?",
+        "What show or movie has captured your interest recently?",
+        "Which sport do you think is the most challenging?",
+        "What's a place you've always wanted to visit but haven't yet?",
+        "Which historical period would you like to experience firsthand?",
+        "What's a dish that reminds you of home?"
+      ],
+      "topics": {
+        "political": "The state of the world seems chaotic. What do you think?",
+        "emotional": "What's been on your mind lately?",
+        "scientific": "Do you follow any scientific advancements?",
+        "technology": "Got any favorite gadgets?",
+        "philosophy": "Do you believe in fate?",
+        "entertainment": "Caught up on the latest series?",
+        "sports": "Which sports do you follow?",
+        "travel": "What's your dream travel destination?",
+        "history": "Any favorite eras in history?",
+        "food": "What's your go-to comfort food?"
+      }
+    },
+    {
+      "id": 4,
+      "name": "The Simba",
+      "profilePic": "https://i.pinimg.com/736x/2c/51/68/2c5168fc7cea158a94132b79a696c4ca.jpg",
+      "questions": [
+        "What political issue do you think needs more attention?",
+        "How do you cope with intense emotions?",
+        "Is there a scientific breakthrough you're particularly interested in?",
+        "What's a piece of technology you can't live without?",
+        "Do you think people control their own destinies, or is everything predetermined?",
+        "What show or movie has captured your interest recently?",
+        "Which sport do you think is the most challenging?",
+        "What's a place you've always wanted to visit but haven't yet?",
+        "Which historical period would you like to experience firsthand?",
+        "What's a dish that reminds you of home?"
+      ],
+      "topics": {
+        "political": "The state of the world seems chaotic. What do you think?",
+        "emotional": "What's been on your mind lately?",
+        "scientific": "Do you follow any scientific advancements?",
+        "technology": "Got any favorite gadgets?",
+        "philosophy": "Do you believe in fate?",
+        "entertainment": "Caught up on the latest series?",
+        "sports": "Which sports do you follow?",
+        "travel": "What's your dream travel destination?",
+        "history": "Any favorite eras in history?",
+        "food": "What's your go-to comfort food?"
+      }
+    },
+    {
+      "id": 5,
+      "name": "The Lales",
+      "profilePic": "https://i.pinimg.com/736x/2c/51/68/2c5168fc7cea158a94132b79a696c4ca.jpg",
+      "questions": [
+        "What political issue do you think needs more attention?",
+        "How do you cope with intense emotions?",
+        "Is there a scientific breakthrough you're particularly interested in?",
+        "What's a piece of technology you can't live without?",
+        "Do you think people control their own destinies, or is everything predetermined?",
+        "What show or movie has captured your interest recently?",
+        "Which sport do you think is the most challenging?",
+        "What's a place you've always wanted to visit but haven't yet?",
+        "Which historical period would you like to experience firsthand?",
+        "What's a dish that reminds you of home?"
+      ],
+      "topics": {
+        "political": "The state of the world seems chaotic. What do you think?",
+        "emotional": "What's been on your mind lately?",
+        "scientific": "Do you follow any scientific advancements?",
+        "technology": "Got any favorite gadgets?",
+        "philosophy": "Do you believe in fate?",
+        "entertainment": "Caught up on the latest series?",
+        "sports": "Which sports do you follow?",
+        "travel": "What's your dream travel destination?",
+        "history": "Any favorite eras in history?",
+        "food": "What's your go-to comfort food?"
+      }
+    },
+    {
+      "id": 6,
+      "name": "The Oldguard",
+      "profilePic": "https://i.pinimg.com/736x/2c/51/68/2c5168fc7cea158a94132b79a696c4ca.jpg",
+      "questions": [
+        "What political issue do you think needs more attention?",
+        "How do you cope with intense emotions?",
+        "Is there a scientific breakthrough you're particularly interested in?",
+        "What's a piece of technology you can't live without?",
+        "Do you think people control their own destinies, or is everything predetermined?",
+        "What show or movie has captured your interest recently?",
+        "Which sport do you think is the most challenging?",
+        "What's a place you've always wanted to visit but haven't yet?",
+        "Which historical period would you like to experience firsthand?",
+        "What's a dish that reminds you of home?"
+      ],
+      "topics": {
+        "political": "The state of the world seems chaotic. What do you think?",
+        "emotional": "What's been on your mind lately?",
+        "scientific": "Do you follow any scientific advancements?",
+        "technology": "Got any favorite gadgets?",
+        "philosophy": "Do you believe in fate?",
+        "entertainment": "Caught up on the latest series?",
+        "sports": "Which sports do you follow?",
+        "travel": "What's your dream travel destination?",
+        "history": "Any favorite eras in history?",
+        "food": "What's your go-to comfort food?"
+      }
     }
   ]
 }
-  

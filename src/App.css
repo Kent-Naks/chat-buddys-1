@@ -7,7 +7,7 @@
 }
 
 h1 {
-  color: #333;
+  color: #333; /*title color*/
 }
 
 ul {
@@ -104,6 +104,60 @@ a:hover {
   cursor: pointer;
   position: absolute;
   right: 20px; /*Toggle button on the right side */
+}
+
+.theme-toggle:hover {
+  background-color: #0056b3;
+}
+
+/* Header Buttons */
+.header-buttons {
+  position: absolute;
+  right: 20px; /* Positioning all buttons on the right */
+  display: flex;
+  gap: 10px; /* Space between buttons */
+}
+
+/* Positioning for each button with even more space between them */
+.call-button {
+  position: absolute;
+  right: 300px; /* Further increased space from the right */
+  background-color: #33485e;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.call-button:hover {
+  background-color: #0056b3;
+}
+
+.video-call-button {
+  position: absolute;
+  right: 180px; /* Further increased space from the call button */
+  background-color: #33485e;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.video-call-button:hover {
+  background-color: #0056b3;
+}
+
+.theme-toggle {
+  position: absolute;
+  right: 20px; /* Positioned at the far right */
+  background-color: #33485e;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .theme-toggle:hover {

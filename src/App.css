@@ -23,7 +23,7 @@
     text-decoration: none;
     color: #007bff;
   }
-  /* Adding underline on hover, skipping the underline over descenders like g, j, etc. */
+  /* Adding underline on hover, skipping the underline over descenders */
   a:hover {
     text-decoration-skip-ink: auto;;
   }

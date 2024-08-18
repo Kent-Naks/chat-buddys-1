@@ -1,25 +1,29 @@
+/* Main container of the application, aligning text to the left */
 .App {
     text-align: left;
   }
   
+/* Styling for all h1 headers with a dark gray color */
   h1 {
     color: #333;
   }
   
+/* Removing default bullet points and padding from unordered lists */
   ul {
     list-style-type: none;
     padding: 0;
   }
   
+/* Adding margin space between each list item */
   li {
     margin: 10px 0;
   }
-  
+  /* Default styling for links, with a blue color and no underline */
   a {
     text-decoration: none;
     color: #007bff;
   }
-  
+  /* Adding underline on hover, skipping the underline over descenders like g, j, etc. */
   a:hover {
     text-decoration-skip-ink: auto;;
   }

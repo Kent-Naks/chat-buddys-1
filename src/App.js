@@ -1,12 +1,13 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import ChatList from './ChatList';
-import ChatProfile from './ChatProfile';
-import ChatConversation from './ChatConversation';
-import './App.css';
+import React from 'react'; // Importing React library
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Importing Router components for routing
+import ChatList from './ChatList'; // Importing the ChatList component
+import ChatProfile from './ChatProfile'; // Importing the ChatProfile component
+import ChatConversation from './ChatConversation'; // Importing the ChatConversation component
+import './App.css'; // Importing the CSS file for styling
 
 function App() {
   return (
+      // Wrapping the application with the Router component to enable routing
     <Router>
       <div className="App">
         <Routes>
@@ -19,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; // Exporting the App component as the default export

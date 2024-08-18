@@ -3,19 +3,22 @@ import { useParams, useLocation } from 'react-router-dom';
 import './ChatConversation.css';
 
 function ChatConversation() {
-  const { id } = useParams();
-  const location = useLocation();
+  const { id } = useParams(); // Get buddy ID from URL
+  const location = useLocation();// Get URL details
   const queryParams = new URLSearchParams(location.search);
-  const topic = queryParams.get('topic');
+  const topic = queryParams.get('topic'); // Get topic from query parameters
 
+    // State management
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
   const [questions, setQuestions] = useState([]);
   const [questionIndex, setQuestionIndex] = useState(0);
   const [needsExplanation, setNeedsExplanation] = useState(false);
   const [currentFact, setCurrentFact] = useState('');
-  const chatEndRef = useRef(null);
+  const chatEndRef = useRef(null); // For scrolling to the bottom of the cha
 
+
+  // Load chat data when component mounts or when 'id'/'topic' changes
   useEffect(() => {
     fetch('/db.json')
       .then(response => response.json())
@@ -27,6 +30,8 @@ function ChatConversation() {
       });
   }, [id, topic]);
 
+
+  // Auto-scroll to the latest message
   useEffect(() => {
     chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages]);
@@ -40,6 +45,7 @@ function ChatConversation() {
     const newMessage = { text: userMessage, sender: 'user' };
 
     if (needsExplanation) {
+         // Handle 'yes' or 'no' responses for additional information
       if (userMessage.toLowerCase() === 'no') {
         const explanation = getExplanation(currentFact, topic);
         setMessages([...messages, newMessage, { text: `No problem! Here's more information: ${explanation}`, sender: 'buddy' }]);
@@ -75,6 +81,7 @@ function ChatConversation() {
         setNeedsExplanation(true);
       }
 
+            // Ask the next question in sequence
       if (questionIndex < questions.length) {
         setMessages(prevMessages => [...prevMessages, { text: questions[questionIndex], sender: 'buddy' }]);
         setQuestionIndex(questionIndex + 1);

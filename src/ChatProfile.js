@@ -2,10 +2,11 @@ import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 
 function ChatProfile() {
-  const { id } = useParams();
-  const navigate = useNavigate();
+  const { id } = useParams(); // Extracts the 'id' from the URL parameters
+  const navigate = useNavigate(); // Provides navigation capabilities
 
   React.useEffect(() => {
+    // Fetch data for the chat profile based on 'id'
     fetch(`/buddies/${id}`)
       .then(response => {
         if (!response.ok) {
@@ -22,6 +23,7 @@ function ChatProfile() {
   }, [id]);
 
   const handleTopicClick = (topic) => {
+        // Navigates to the conversation page with the selected topic
     navigate(`/conversation/${id}?topic=${topic}`);
   };
 

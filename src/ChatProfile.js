@@ -2,13 +2,13 @@ import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 
 function ChatProfile() {
-  const { id } = useParams();
-  const navigate = useNavigate();
+  const { id } = useParams(); //This id is used to fetch data for the specific chat buddy.
+  const navigate = useNavigate(); //used to programmatically navigate to different routes within the application
 
   React.useEffect(() => {
     fetch(`/buddies/${id}`)
       .then(response => {
-        if (!response.ok) {
+        if (!response.ok) { //If the response is not successful (!response.ok), it throws an error with the HTTP status.
           throw new Error(`HTTP error! status: ${response.status}`);
         }
         return response.json();
@@ -21,13 +21,13 @@ function ChatProfile() {
       });
   }, [id]);
 
-  const handleTopicClick = (topic) => {
-    navigate(`/conversation/${id}?topic=${topic}`);
+  const handleTopicClick = (topic) => { //function is triggered when one of the topic buttons is clicked
+    navigate(`/conversation/${id}?topic=${topic}`); //Uses navigate to change the route to /conversation/{id}?topic={topic}.
   };
 
-  return (
+  return ( //Displays "Chat Profile" as the title of the page
     <div>
-      <h1>Chat Profile</h1>
+      <h1>Chat Profile</h1> 
       <p>Choose a conversation topic:</p>
       <ul>
         <li><button onClick={() => handleTopicClick('political')}>Political</button></li>

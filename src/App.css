@@ -107,7 +107,7 @@ a:hover {
 }
 
 .theme-toggle:hover {
-  background-color: #0056b3;
+  background-color: #024fa1;
 }
 
 /* Header Buttons */
@@ -118,10 +118,10 @@ a:hover {
   gap: 10px; /* Space between buttons */
 }
 
-/* Positioning for each button with even more space between them */
+/* footer buttons */
 .call-button {
   position: absolute;
-  right: 300px; /* Further increased space from the right */
+  right: 300px; 
   background-color: #33485e;
   color: white;
   border: none;
@@ -136,7 +136,7 @@ a:hover {
 
 .video-call-button {
   position: absolute;
-  right: 180px; /* Further increased space from the call button */
+  right: 180px; /*call button */
   background-color: #33485e;
   color: white;
   border: none;

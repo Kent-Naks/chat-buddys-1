@@ -18,7 +18,7 @@ h1 {
 
 .chat-container {
   flex: 1;
-  overflow-y: auto;
+  overflow-y: auto;    /* chat container styling */
   margin-bottom: 10px;
   padding: 5px;
   display: flex;
@@ -27,12 +27,12 @@ h1 {
 
 .message {
   display: flex;
-  justify-content: flex-start; /* Default alignment */
+  justify-content: flex-start; 
   margin-bottom: 10px;
 }
 
 .message.user {
-  justify-content: flex-end; /* Align user messages to the end */
+  justify-content: flex-end; /* user messages to the end */
 }
 
 .chat-bubble {
@@ -70,7 +70,7 @@ h1 {
   width: 80%;
   padding: 10px;
   border-radius: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #9f8c8c;
   font-size: 16px;
   margin-right: 10px;
 }
@@ -78,7 +78,7 @@ h1 {
 .send-button {
   padding: 10px 20px;
   border-radius: 20px;
-  background-color: #25D366;
+  background-color: #2244ac;/* Send button color */
   color: white;
   border: none;
   cursor: pointer;

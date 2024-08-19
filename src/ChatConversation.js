@@ -8,14 +8,15 @@ function ChatConversation() {
   const queryParams = new URLSearchParams(location.search);
   const topic = queryParams.get('topic');
 
-  const [messages, setMessages] = useState([]);
+  const [messages, setMessages] = useState([]); //Stores chat messages between the user and the buddy.
   const [input, setInput] = useState('');
-  const [questions, setQuestions] = useState([]);
+  const [questions, setQuestions] = useState([]); //Stores pre-defined questions from the buddy.
   const [questionIndex, setQuestionIndex] = useState(0);
-  const [needsExplanation, setNeedsExplanation] = useState(false);
+  const [needsExplanation, setNeedsExplanation] = useState(false); //Boolean flag to indicate if the buddy should explain a fact.
   const [currentFact, setCurrentFact] = useState('');
   const chatEndRef = useRef(null);
 
+  //Fetches conversation data from a /db.json file and updates the messages and questions
   useEffect(() => {
     fetch('/db.json')
       .then(response => response.json())
